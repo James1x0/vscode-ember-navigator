@@ -11,6 +11,11 @@ class ComponentNavigationStrategy extends NavigationStrategy {
         namespace: 'templates'
       },
       {
+        path: path.join(this.location.project, this.location.parent, 'components', this.location.optDirectories, `${this.location.file}.hbs`),
+        icon: 'javascript',
+        namespace: 'templates'
+      },
+      {
         path: path.join(this.location.project, 'tests', 'integration', this.location.namespace, this.location.optDirectories, `${this.location.file}-test.js`),
         icon: 'javascript-test',
         namespace: 'tests'

@@ -49,7 +49,7 @@ function getPossibleDestinations(fileName) {
     strategies.push(new RouteNavigationStrategy(location));
   }
 
-  if (location.namespace === 'components') {
+  if (location.namespace === 'components' && location.extension === 'js') {
     strategies.push(new ComponentNavigationStrategy(location));
   }
 
@@ -65,7 +65,7 @@ function getPossibleDestinations(fileName) {
     strategies.push(new UnitTestedNavigationStrategy(location));
   }
 
-  if (location.namespace === 'templates') {
+  if (location.namespace === 'templates' || location.extension === 'hbs' && location.namespace === 'components') {
     strategies.push(new TemplateNavigationStrategy(location));
   }
 
