@@ -1,5 +1,7 @@
+#### A Fork of ember-navigator w/ octane co-location bindings
+
 <p align="center">
-  <img src="https://github.com/Oreoz/vscode-ember-navigator/blob/master/images/branding.png?raw=true">
+  <img src="https://github.com/James1x0/vscode-ember-navigator/blob/master/images/branding.png?raw=true">
 </p>
 
 The Ember Navigator VS Code extension aims facilitate Ember.js application development by providing shortcuts and contextual navigation via the command palette.
@@ -40,3 +42,6 @@ Command | Shortcut | Mac Shortcut
 
 ### 2.0.0
 - Adds Octane component syntax support.
+
+### 2.1.0
+- Octane co-location component support

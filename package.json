@@ -1,10 +1,10 @@
 {
   "name": "vscode-ember-navigator",
-  "displayName": "Ember Navigator",
-  "description": "A productivity tool for Ember.js developers.",
-  "version": "2.0.0",
-  "publisher": "oreoz",
-  "repository": "https://github.com/Oreoz/vscode-ember-navigator",
+  "displayName": "Ember Nav",
+  "description": "Nav tool for Ember.js developers.",
+  "version": "2.1.0",
+  "publisher": "james1x0",
+  "repository": "https://github.com/James1x0/vscode-ember-navigator",
   "engines": {
     "vscode": "^1.24.0"
   },
